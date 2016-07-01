@@ -56,6 +56,9 @@ Includes the HTML contents in the bundle and during execution mocks the
 file system for `serve-static` middleware using
 [mock-fs](https://github.com/tschaub/mock-fs) module.
 
+See [build.js](build.js) and [start.js](start.js) files that wrap around
+[index.js](index.js).
+
 ### Small print
 
 Author: Gleb Bahmutov &copy; 2016
