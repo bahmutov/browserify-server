@@ -50,6 +50,12 @@ listening on port 3000
 
 Making the request from another terminal still works.
 
+## How
+
+Includes the HTML contents in the bundle and during execution mocks the
+file system for `serve-static` middleware using
+[mock-fs](https://github.com/tschaub/mock-fs) module.
+
 ### Small print
 
 Author: Gleb Bahmutov &copy; 2016
