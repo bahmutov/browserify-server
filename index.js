@@ -1,3 +1,4 @@
+console.log('running in', process.cwd())
 var finalhandler = require('finalhandler')
 var http = require('http')
 var serveStatic = require('serve-static')

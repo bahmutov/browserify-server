@@ -1,7 +1,7 @@
 {
   "name": "browserify-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bundling static folder into a single JavaScript Node app bundle (example)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,9 +9,9 @@
     "bundle": "node build.js",
     "run": "cd dist; node bundle.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["server", "browserify", "static", "bundle"],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "finalhandler": "0.5.0",
     "serve-static": "1.11.1"
